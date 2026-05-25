@@ -4,22 +4,22 @@ cask "a3k" do
 
   on_macos do
     on_intel do
-      sha256 "78179d093acf479be457323548acdf1929a8f538f4d67f575ece725d2b8cb961"
+      sha256 "621d2093b919bdad71eb4c739dff0f14531a089fec37fc0156675ca168d3d0b9"
       url "https://github.com/GustavoEsser/a3k/releases/download/v#{version}/a3k_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "27aa165a52effe032dce6fd2daa942648a549cd38cb51fb1934cc1d8e5c37e70"
+      sha256 "ddeabbcf8a04a4092461abb4e791a518670e0f7dc129f6bd8b8b146cd1f7a515"
       url "https://github.com/GustavoEsser/a3k/releases/download/v#{version}/a3k_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "467f2da506218f25b1ac7fdd392a982634412928a6d872ef9a0a74f53904ec98"
+      sha256 "c0cdc4c91226d340544254807dd2acf66f298df69accb0038bf8e69938176b05"
       url "https://github.com/GustavoEsser/a3k/releases/download/v#{version}/a3k_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "dccdf22bd33c69bf3f66635f17d1d7665f11e670c1fcf68f9d39ba706e858111"
+      sha256 "aeb17cbb3dd73aaaab396c31b91ed90fa538d818014fd63c5bc139b4897813c3"
       url "https://github.com/GustavoEsser/a3k/releases/download/v#{version}/a3k_#{version}_linux_arm64.tar.gz"
     end
   end
